@@ -1,0 +1,81 @@
+
+
+h1{
+    color:white;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    padding:50px ;
+}
+
+.menu{
+    display: flex;
+    align-items: flex-end;
+    background-color:white;
+    border: dotted;
+    padding: 25px;
+
+}
+
+h2,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color:#33ff00;
+}
+
+.header{
+    background-image: url(setup.jpg);    
+    
+    display: flex;
+    justify-content: center;
+    background-color:#6a2299;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sites{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:red;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+opacity: 0.5;
+}
+
+.bgimg{
+    background-image: url(cool\ wallpaper.jpg);
+}
